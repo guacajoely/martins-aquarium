@@ -3,46 +3,47 @@
 const database = {
     fish: [
         {
-            name: "fish1",
-            species: 'blue tang',
-            length: 1,
+            id: 1,
+            name: "James",
+            species: 'Blue Tang',
+            length: 5,
             location: "Nebraska",
             diet: "plankton, crustaceans"
         },
         {
-            name: "fish2",
-            species: 'goldfish',
-            length: .5,
-            location: "Columbus, OH",
-            diet: "fish flakes"
+            id: 2,
+            name: "Arnold",
+            species: 'Tarpon',
+            length: 3,
+            location: "Florida",
+            diet: "plankton, crustaceans"
         },
         {
-            name: "fish3",
-            species: 'yellowtail',
-            length: 3,
+            id: 3,
+            name: "Harrison",
+            species: 'Yellowtail',
+            length: 1.5,
             location: "California",
             diet: "crustaceans"
         },
         {
-            name: "fish4",
-            species: 'salmon',
-            length: 4,
+            id: 4,
+            name: "Jimbo",
+            species: 'Pumpkinseed Sunfish',
+            length: 8,
             location: "Pacific Ocean",
             diet: "crustaceans, small fish"
         },
         {
-            name: "fish5",
-            species: 'tuna',
+            id: 5,
+            name: "Jimmy",
+            species: 'Tuna',
             length: 2,
             location: "Atlantic Ocean",
             diet: "plankton, small fish, squid"
         }
     ]
 }
-
-
-
-
 
 export const getFish = () => {
     return database.fish.map(copyOfSingleFishObject => ({...copyOfSingleFishObject}))
