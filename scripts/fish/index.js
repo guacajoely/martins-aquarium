@@ -10,6 +10,7 @@ console.log("JS linked correctly")
 
 // Import the FishList function from the correct module
 import { fishList } from './fishList.js'
+import { sortedFishList } from './fishList.js'
 
 /*
     What is the CSS selector for the element where you
@@ -20,4 +21,4 @@ import { fishList } from './fishList.js'
  */
 const parentHTMLElement = document.querySelector("#fish__list")
 
-parentHTMLElement.innerHTML = fishList()
+parentHTMLElement.innerHTML = sortedFishList()
