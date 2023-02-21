@@ -61,6 +61,10 @@ ul, li {
     justify-content: center;
 }
 
+#tips__container {
+    height: 2000px;
+}
+
 #tips {
     margin:20px;
     font-size: 18px;
