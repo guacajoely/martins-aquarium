@@ -1,20 +1,72 @@
 body {
     background: aqua;
     margin:0;
+    font: 22px sans-serif;
+    
 }
 
 header {
     border: thin solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding:20px;
+}
+
+#title, nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font: bold 30px sans-serif;
 }
 
 nav {
     border: thin solid black;
 }
 
-aside {
+a {
+    margin:20px;
+    text-decoration: none;
+    color: black;
+}
+
+#main__container{
+    display: flex;
+    background: aquamarine;
+}
+
+#fishlist__container{
+    width: 50vw;
     border: thin solid black;
 }
 
-section {
+aside {
     border: thin solid black;
+    width: 50vw;
 }
+
+.header {
+    margin: 10px;
+    font-weight: bold;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.fish__card {
+    display: flex;
+    margin: 10px;
+}
+
+.fish__info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tips {
+    margin:20px;
+}
+
