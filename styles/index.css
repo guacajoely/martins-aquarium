@@ -2,11 +2,9 @@ body {
     background: aqua;
     margin:0;
     font: 22px sans-serif;
-    
 }
 
 header {
-    border: thin solid black;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -17,17 +15,14 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
-    font: bold 30px sans-serif;
-}
-
-nav {
-    border: thin solid black;
+    font: bold 40px sans-serif;
 }
 
 a {
     margin:20px;
     text-decoration: none;
     color: black;
+    font-size: 30px;
 }
 
 #main__container{
@@ -37,17 +32,17 @@ a {
 
 #fishlist__container{
     width: 50vw;
-    border: thin solid black;
 }
 
 aside {
-    border: thin solid black;
+    border-left: thick solid aqua;
     width: 50vw;
 }
 
 .header {
     margin: 10px;
     font-weight: bold;
+    font-size: 28px;
 }
 
 ul, li {
@@ -68,5 +63,49 @@ ul, li {
 
 #tips {
     margin:20px;
+    font-size: 18px;
 }
 
+img {
+    width:300px;
+}
+
+#locations__container{
+    background: aquamarine;
+    border: thick solid aqua;
+}
+
+#quotes__container, #locations__container, #locations__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quotes__container{
+    margin: 40px 0px;
+}
+
+#locations__container {
+    padding: 40px;
+}
+
+#locations__list{
+    border: thin solid darkblue;
+    box-shadow: 2px 2px 4px 0 darkblue;
+    background: lightskyblue;
+    padding: 10px;
+    width: 800px;
+    align-items: start;
+}
+
+.location__desc{
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.quote {
+    margin: 10px;
+    width: 1000px;
+}
