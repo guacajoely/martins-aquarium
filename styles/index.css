@@ -115,3 +115,8 @@ img {
     border: thin solid blue;
     box-shadow: 2px 2px 6px 0 blue;
 }
+
+.tip__title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
