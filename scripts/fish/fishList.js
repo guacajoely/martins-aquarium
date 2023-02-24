@@ -39,9 +39,9 @@ export const fishList = () => {
 // Big Fish, Little Fish
 
 // Import the three NEW functions that prioritizes fish of specific lengthes
-import { mostHolyFish } from './database.js'
-import { soldierFish } from './database.js'
-import { nonHolyFish } from './database.js'
+import { mostHolyFish } from './fishFilter.js'
+import { soldierFish } from './fishFilter.js'
+import { nonHolyFish } from './fishFilter.js'
 
 // Create an Array to store those fish
 const newSortedArray = []

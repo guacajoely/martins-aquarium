@@ -31,5 +31,5 @@ const database = [
 
 export const getTips = () => {
     
-    return database.map(copyOfSingleFishObject => ({...copyOfSingleFishObject}))
+    return database.map(copyOfSingleObject => ({...copyOfSingleObject}))
 }

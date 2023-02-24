@@ -34,5 +34,5 @@ const database = [
 
 export const getLocations = () => {
     
-    return database.map(copyOfSingleFishObject => ({...copyOfSingleFishObject}))
+    return database.map(copyOfSingleObject => ({...copyOfSingleObject}))
 }
